@@ -304,5 +304,33 @@ ul{
     width: 140px;
 }
 
-.título
+.rodape  hr{
+    border: none;
+    height: 1px;
+    background: var(--cor-fonte);
+    margin: 20px 0;
+}
 
+.direitos{
+    text-align: center;
+}
+
+.menu-celular{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+
+
+/*----------------Menu celular-----------------*/
+
+@media only screen and (max-width: 800px){
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: var(--cor-btn-fonte);
+        width: 10;
+    }
+}
+    
